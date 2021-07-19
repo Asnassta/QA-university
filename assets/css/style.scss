@@ -535,14 +535,18 @@ body {
 			font-weight: 400;
 			font-size: 20px;
 			color: $gray;
+			opacity: 1;
 		}
 	}
 	textarea {
-		padding-right: 30px;
+		padding-right: 20%;
 		resize: none;
 		min-height: 51px;
+		width: 110%;
+		margin-right: -10%;
 		&::placeholder {
 			padding-right: 100px;
+			opacity: 1;
 		}
 	}
 	select {
@@ -584,6 +588,7 @@ body {
 	}
 	&__questions {
 		position: relative;
+		overflow: hidden;
 		input[type="text"] {
 			padding-right: 35px;
 		}
@@ -1005,7 +1010,7 @@ body {
 		}
 		textarea {
 		&::placeholder {
-			padding-right: 40px;
+			padding-right: 60px;
 		}
 	}
 		&__select {
@@ -1101,6 +1106,14 @@ body {
 }
 
 @media(max-width: 768px) {
+	.form {
+		textarea {
+		&::placeholder {
+			padding-right: 135px;
+		}
+	}
+
+	}
 	.block {
 		&-contact {
 			>div {
@@ -1368,6 +1381,11 @@ body {
 		}
 	}
 	.form {
+		textarea {
+			&::placeholder {
+				padding-right:40px;
+			}
+		}
 		&__row {
 			padding-right: 20px;
 			>div {
