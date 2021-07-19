@@ -967,13 +967,13 @@ body.hidden {
 
 @media (max-width: 768px) {
   .form textarea::-webkit-input-placeholder {
-    padding-right: 135px; }
+    padding-right: 50px; }
   .form textarea:-ms-input-placeholder {
-    padding-right: 135px; }
+    padding-right: 50px; }
   .form textarea::-ms-input-placeholder {
-    padding-right: 135px; }
+    padding-right: 50px; }
   .form textarea::placeholder {
-    padding-right: 135px; }
+    padding-right: 50px; }
   .block-contact > div:before {
     top: -3%; }
   .block-about {
