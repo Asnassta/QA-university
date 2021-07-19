@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Azo Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/AzoSans-Regular.eot"), url("../fonts/AzoSans-Regular.woff2") format("woff2"), url("../fonts/AzoSans-Regular.woff") format("woff"), url("../fonts/AzoSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Azo Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/AzoSans-Bold.eot"), url("../fonts/AzoSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AzoSans-Bold.woff2") format("woff2"), url("../fonts/AzoSans-Bold.woff") format("woff"), url("../fonts/AzoSans-Bold.ttf") format("truetype"); }
