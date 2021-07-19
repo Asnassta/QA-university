@@ -914,7 +914,7 @@ body.hidden {
     padding: 12px;
     -ms-flex-item-align: start;
     align-self: flex-start; }
-  .form__check label > div {
+  .form__check label > i {
     font-size: 12px; }
   .form__row {
     background-position: center; }
