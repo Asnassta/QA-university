@@ -372,7 +372,13 @@ p.gray::selection {
       transform: translateX(-100%); }
       .block-contact__photo > div {
         height: 100%;
-        position: relative; }
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end; }
         .block-contact__photo > div:before {
           content: "";
           display: block;
